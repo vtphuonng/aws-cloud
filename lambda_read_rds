@@ -1,0 +1,52 @@
+import sys
+import logging
+import pymysql
+import json
+import boto3
+
+rds_host="database-1-instance-1.cit1ebjnp7q1.us-east-1.rds.amazonaws.com"
+user_name="awsistech"
+password="awsistech"
+db_name="users"
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# create the database connection outside of the handler to allow connections to be
+# re-used by subsequent function invocations.
+try:
+    conn = pymysql.connect(host=rds_host, user=user_name, passwd=password, db=db_name, connect_timeout=15)
+except pymysql.MySQLError as e:
+    logger.error("ERROR: Unexpected error: Could not connect to MySQL instance.")
+    logger.error(e)
+    sys.exit()
+
+logger.info("SUCCESS: Connection to RDS MySQL instance succeeded")
+
+def lambda_handler(event, context):
+    #event_body = event["body"]["Name"]
+    #str_to_dict = json.loads(event_body)
+    #str2dict_2 = json.loads(str_to_dict["Message"])
+    logger.info(event)
+    #quere_condition = event_body
+    #logger.info(str2dict_2.keys())
+    item_count = 0
+    with conn.cursor() as cur:
+        string = f'''select * from Customer'''
+                #where Name = "{quere_condition}"'''
+        sql = string
+        cur.execute(sql)
+        l1= []
+        for row in cur:
+            respond = json.dumps(
+                l1.append(row)
+                )
+            item_count += 1
+        return{
+            "total_records": item_count,
+            "details": l1
+            }
+
+
+    
+    
