@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    justify-content: center;
+
+    form {
+        width: 250px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+
+        h5 {
+            font-size: 28px;
+        }
+
+        label {
+            display: block;
+            margin-top: 4px;
+        }
+        
+        input {
+            margin-top: 4px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: 12px;
+        }
+
+        .login {
+            margin-top: 12px;
+            cursor: pointer;
+            transition: ease-in .3s;
+
+            &:hover {
+                background-color: greenyellow;
+                color: #fff;
+            }
+        }
+    }
+}
