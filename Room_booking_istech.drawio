@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T06:25:37.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wMxpIUmuej6J85kxT4iy" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T09:18:02.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jxsSst3S_5zGeDqN2c23" version="21.5.0" type="github">
   <diagram name="Page-1" id="0Z_fvb3zeO-kxQGzWtkH">
-    <mxGraphModel dx="1034" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,13 +61,13 @@
         <mxCell id="b7pJj_MtqQxg6-V4zT9a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2lSKn92w14DXW7jm6LT-13" target="f2lSKn92w14DXW7jm6LT-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f2lSKn92w14DXW7jm6LT-13" value="&lt;h1&gt;Thông tin đặt phòng&lt;/h1&gt;&lt;div&gt;- Phòng học&lt;/div&gt;&lt;div&gt;- Các khung giờ&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Người book&lt;/div&gt;&lt;div&gt;- &lt;font color=&quot;#ffffcc&quot;&gt;Người duyệt&lt;/font&gt;&lt;/div&gt;&lt;div&gt;- Content&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="f2lSKn92w14DXW7jm6LT-13" value="&lt;h1&gt;Thông tin đặt phòng&lt;/h1&gt;&lt;div&gt;- Phòng học&lt;/div&gt;&lt;div&gt;- Thời gian&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Người book&lt;/div&gt;&lt;div&gt;- &lt;font color=&quot;#ffffcc&quot;&gt;Người duyệt&lt;/font&gt;&lt;/div&gt;&lt;div&gt;- Content&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1240" y="522" width="130" height="178" as="geometry" />
         </mxCell>
         <mxCell id="f2lSKn92w14DXW7jm6LT-14" value="&lt;h1&gt;Phòng học&lt;/h1&gt;&lt;div&gt;- Số phòng&lt;/div&gt;&lt;div&gt;- Địa điểm&lt;/div&gt;&lt;div&gt;- Trạng thái&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1480" y="420" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="f2lSKn92w14DXW7jm6LT-15" value="&lt;h1&gt;Thời gian đặt&lt;/h1&gt;&lt;div&gt;- Ngày&lt;/div&gt;&lt;div&gt;- Giờ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="f2lSKn92w14DXW7jm6LT-15" value="&lt;h1&gt;Thời gian&amp;nbsp;&lt;/h1&gt;&lt;div&gt;- Ngày&lt;/div&gt;&lt;div&gt;- Giờ&lt;/div&gt;&lt;div&gt;- Trạng thái&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1480" y="560" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="f2lSKn92w14DXW7jm6LT-17" value="&lt;h1&gt;Người book&lt;/h1&gt;&lt;div&gt;- Tên người đặt&lt;/div&gt;&lt;div&gt;- Tên CLB&lt;/div&gt;&lt;div&gt;- Mssv&lt;/div&gt;&lt;div&gt;- SĐT&lt;/div&gt;&lt;div&gt;- Email&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -83,7 +83,7 @@
           <mxGeometry x="760" y="610" width="190" height="160" as="geometry" />
         </mxCell>
         <mxCell id="f2lSKn92w14DXW7jm6LT-27" value="&lt;h1&gt;Content&lt;/h1&gt;&lt;div&gt;- Người book/ duyệt&lt;/div&gt;&lt;div&gt;- Content&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1480" y="980" width="160" height="100" as="geometry" />
+          <mxGeometry x="1480" y="980" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="f2lSKn92w14DXW7jm6LT-32" value="&lt;h1&gt;Web&lt;/h1&gt;&lt;div&gt;- Login/ logout/ sign up&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="460" width="165" height="100" as="geometry" />
@@ -197,6 +197,78 @@
         </mxCell>
         <mxCell id="b7pJj_MtqQxg6-V4zT9a-49" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="2000" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-58" value="Năm" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-60" value="- Năm&lt;br&gt;- Tháng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-58">
+          <mxGeometry x="55" y="45" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-61" value="Phòng học" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="560" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- Booking ID&lt;br&gt;- Số phòng&lt;br&gt;- Địa Điểm&lt;br&gt;- Trạng Thái&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-61">
+          <mxGeometry x="50" y="50" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-64" value="Người đặt" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="373" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-65" value="- MSSV&lt;br&gt;- Tên&lt;br&gt;- Đơn vị&lt;br&gt;- SĐT&lt;br&gt;- Email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-64">
+          <mxGeometry x="70" y="40" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-66" value="Người duyệt" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="523" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-67" value="- Tên&lt;br&gt;- SĐT&lt;br&gt;- Email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-66">
+          <mxGeometry x="70" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-68" value="Content" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="529" width="190" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-69" value="- Người book/ duyệt&lt;br&gt;- Content ID&lt;br&gt;- Content" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-68">
+          <mxGeometry x="30" y="38" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-70" value="Booking Information" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="40" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-72" value="- Booking ID&lt;br&gt;- Tên người đặt&lt;br&gt;- MSSV&lt;br&gt;- Thời gian đặt&lt;br&gt;- Thời gian chọn&lt;br&gt;- Người duyệt&lt;br&gt;- Content ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-70">
+          <mxGeometry x="35" y="45" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-73" value="Tháng" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="201" width="180" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-74" value="- Tháng&lt;br&gt;- Ngày" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-73">
+          <mxGeometry x="60" y="55" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-75" value="Ngày" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="394" width="180" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-79" value="- Ngày&lt;br&gt;- khung giờ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-75">
+          <mxGeometry x="45" y="38" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-77" value="Thời gian chọn" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="220" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-78" value="- Booking ID&lt;br&gt;-&amp;nbsp; Ngày/ tháng / năm&lt;br&gt;- Khung giờ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-77">
+          <mxGeometry x="30" y="50" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-80" value="Trạng thái thời gian chọn" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="590" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-81" value="- Khung giờ&lt;br&gt;- Trạng thái&lt;br&gt;- Booking ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="b7pJj_MtqQxg6-V4zT9a-80">
+          <mxGeometry x="45" y="46" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-82" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="b7pJj_MtqQxg6-V4zT9a-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="-80" as="sourcePoint" />
+            <mxPoint x="2710" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7pJj_MtqQxg6-V4zT9a-83" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3049.38" y="-80" as="sourcePoint" />
+            <mxPoint x="3049.38" y="40" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
